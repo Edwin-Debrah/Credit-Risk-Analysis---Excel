@@ -6,7 +6,7 @@
 
 This analysis evaluates a 1,200-customer credit Analysis that answers how credit risk is distributed across branches and employment types.  
 
-Using Excel for data preparation and pivot-based aggregation, followed by Power BI for interactive visualization, the analysis uncovers structural risk patterns, segmentation imbalances, and operational inefficiencies in classification logic.
+Using Excel for data preparation and pivot-based aggregation [Link](https://github.com/Edwin-Debrah/Credit-Risk-Analysis---Excel/blob/main/Credit_Risk_Analysis.xlsm), followed by Power BI for interactive visualization [Link](https://github.com/Edwin-Debrah/Credit-Risk-Analysis---Excel/blob/main/Credit%20Risk%20Analysis.pbix), the analysis uncovers structural risk patterns, segmentation imbalances, and operational inefficiencies in classification logic.
 
 At portfolio level, the numbers immediately tell a story:
 
