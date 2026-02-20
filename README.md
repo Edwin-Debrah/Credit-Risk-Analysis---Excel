@@ -4,7 +4,7 @@
 
 # 🏦 Executive Summary
 
-This analysis evaluates a 1,200-customer credit portfolio that answers how credit risk is distributed across branches and employment categories.  
+This analysis evaluates a 1,200-customer credit Analysis that answers how credit risk is distributed across branches and employment types.  
 
 Using Excel for data preparation and pivot-based aggregation, followed by Power BI for interactive visualization, the analysis uncovers structural risk patterns, segmentation imbalances, and operational inefficiencies in classification logic.
 
@@ -15,6 +15,9 @@ At portfolio level, the numbers immediately tell a story:
 - Only 2.67% are labeled **High Risk (Reject)**  
 - Average Debt-to-Income (DTI) ratio stands at **0.44**  
 - Average Days Past Due is **37.86 days**
+
+<img width="1130" height="619" alt="Screenshot 2026-02-20 131917" src="https://github.com/user-attachments/assets/6455840a-b0ff-4ec3-bfae-fc1572cde2cd" />
+
 
 The concentration in Medium Risk suggests a cautious underwriting framework, but it also raises questions about segmentation sharpness and review workload efficiency.
 
@@ -45,7 +48,10 @@ The most striking anomaly appears in Kumasi Main:
 - Average DTI: **0.82 (highest in the portfolio)**
 - Average Days Past Due: **40.66 (highest among branches)**
 
-Despite these financial stress signals, Kumasi does not lead in High-Risk classification. This suggests potential under-classification of financially overstretched borrowers.
+<img width="1135" height="630" alt="Screenshot 2026-02-20 131945" src="https://github.com/user-attachments/assets/2360beaa-7635-4836-a6d8-17bba61d00dc" />
+
+
+Despite these financial stress signals, Kumasi does not lead in High-Risk classification. This suggests most of their borrowers have either a medium score after the combination of all 3 factors (Stability + DTI + Deliquency) compared to Accra which requires review.
 
 In contrast, Tema appears structurally healthier:
 
@@ -65,7 +71,10 @@ Salaried customers demonstrate the strongest financial stability:
 - Average DTI: 0.318  
 - Average Days Past Due: 36.05  
 - 30.46% classified as Low Risk  
-- 0% classified as High Risk  
+- 0% classified as High Risk
+
+<img width="1133" height="630" alt="Screenshot 2026-02-20 132012" src="https://github.com/user-attachments/assets/0d8661c2-bf2e-436b-9bbc-a7aa1a9f57af" />
+
 
 This segment shows predictable income stability and consistent repayment behavior, making it the safest portfolio backbone.
 
@@ -175,10 +184,10 @@ The portfolio is not immediately distressed, but it shows structural segmentatio
 
 Risk exposure is concentrated in:
 
-- Self-Employed borrowers  
-- Kumasi Main branch  
+- Contract and unemployed borrowers  
+- Accra Central and Kumasi Main branches  
 - High-DTI segments  
 
 While outright High-Risk classifications remain low, financial stress indicators suggest recalibration is warranted.
 
-This analysis moves beyond dashboard creation. It demonstrates portfolio thinking, risk interpretation, and the ability to translate data into actionable financial strategy.
+This analysis demonstrates portfolio thinking, risk interpretation, and the ability to translate data into actionable financial strategy.
